@@ -19,8 +19,21 @@ The dataset used for training and testing is the **LeapGestRecog dataset**:
 
 * Contains images of **10 different hand gestures** performed by multiple users.
 * Gestures include: Palm, L, Fist, FistMoved, Thumb, Index, OK, PalmMoved, C, Down.
-* For faster training and experimentation, a **smaller dataset** was created with **200 images per gesture**.
-* The smaller dataset is included in this repository as a **ZIP file (`leapGestRecog_small.zip`)**. Unzip it before running the project.
+
+**Smaller Dataset for Training:**
+
+* For faster training, a smaller dataset with **200 images per gesture** can be created locally.
+* To generate the smaller dataset:
+
+  1. Download the original LeapGestRecog dataset from Kaggle.
+  2. Place the dataset in a folder on your machine, e.g., `C:\Users\YourName\Desktop\HandGesture\leapGestRecog`.
+  3. Run the **Dataset Preparation code block** in the notebook.
+  4. The smaller dataset will be created at:
+
+     ```
+     C:\Users\YourName\Desktop\HandGesture\leapGestRecog_small
+     ```
+* This smaller dataset is then used for model training, evaluation, and real-time prediction.
 
 ---
 
