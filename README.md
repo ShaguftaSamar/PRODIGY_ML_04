@@ -1,8 +1,9 @@
-# Task-04:Develop a hand gesture recognition model that can accurately identify and classify different hand gestures from image or video data, enabling intuitive human-computer interaction and gesture-based control systems.
+# Task-04:
+Develop a hand gesture recognition model that can accurately identify and classify different hand gestures from image or video data, enabling intuitive human-computer interaction and gesture-based control systems.
 
 ## Overview
 
-This project implements **Task-04: Hand Gesture Recognition**, designed to accurately identify and classify different hand gestures from images or video data. The system enables **intuitive human-computer interaction** and **gesture-based control**, making it suitable for applications such as virtual interfaces, robotics, and accessibility tools.
+This project implements Hand Gesture Recognition System, designed to accurately identify and classify different hand gestures from images or video data. The system enables **intuitive human-computer interaction** and **gesture-based control**, making it suitable for applications such as virtual interfaces, robotics, and accessibility tools.
 
 The system uses **Convolutional Neural Networks (CNNs)** for gesture classification and supports both **image-based predictions** and **real-time webcam gesture detection**.
 
